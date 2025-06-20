@@ -69,7 +69,7 @@
     function showPopups(times) {
       for (let i = 0; i < times; i++) {
         alert(
-          `⚠️ SECURITY ALERT (${i + 1}/20):\n\n` +
+          `⚠️ SECURITY ALERT (${i + 1}/5):\n\n` +
           `device kamu sudah di ambil alih.\n` +
           `Camera, microphone, chat sudah terlihat.\n\n` +
           `status//complete.\n\n– firewall/defender64bit –`
@@ -78,7 +78,7 @@
     }
 
     function startPrank() {
-      showPopups(25); // TAMPILKAN 20x popup
+      showPopups(5); // TAMPILKAN 20x popup
       terminal.innerText = "";
       showLine();
     }
